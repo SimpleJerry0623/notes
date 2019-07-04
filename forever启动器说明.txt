@@ -1,0 +1,17 @@
+npm install -g forever //安装启动器 
+
+forever start server.js //cd到该目录 , 然后输入该命令  ,即使我们关闭终端服务器也还在 很方便
+
+forever restart server.js //重启
+
+forever stop server.js // 关闭
+
+forever list //查看当前已经启动的所有服务器
+
+forever stopall //关闭所有用forever 启动的服务器(少用)
+-----------------------------------------------------------------
+forever start xxx.js -l c:/a.log
+
+npm init -y //初始化init项目 y表示默认yes  ,在该项目目录生成 package.json文件
+npm install 模块名称 -D //下载模块
+
