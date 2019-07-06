@@ -31,11 +31,7 @@ let urlObj = url.parse(request.url,true);
 let queryParamsObj = urlObj.query;//获取请求路径对象中的query对象(包含了url中的get参数)
 ```
 
-
-
-### 5.  multparty
-
-### mine    用于获取文件扩展名
+### 5.mine    用于获取文件扩展名
 
 ```js
 
